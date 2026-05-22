@@ -1,33 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Document</title>
+    <title>Retiro Conecta</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header>
+
+    <header class="header">
+        <div class="logo">Retiro Conecta</div>
         <nav>
-            <a href="#hola">Link</a>
-            <a href="./otra.html">Venir
-            </a>
+            <a href="#proyecto">Proyecto</a>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#horarios">Horarios</a>
         </nav>
     </header>
-    <main>
-        <section class="formulario">
-            <form action="" method="post">
-                <label for=""></label>
-                <input type="text" name="" id="">
 
-                <label for=""></label>
-                <input type="password" name="" id="">
-                <button type="reset">Enviar</button>
-            </form>
+    <main>
+        <section class="hero">
+            <div>
+                <span class="etiqueta">Centro de Transporte Inteligente</span>
+                <h1>Conectá Buenos Aires desde Retiro</h1>
+                <p>
+                    Una plataforma digital para consultar servicios, recorridos, horarios
+                    y accesibilidad del principal nodo de transporte de la ciudad.
+                </p>
+                <a href="#servicio" class="boton">Ver servicio destacado</a>
+            </div>
+        </section>
+
+        <section id="proyecto" class="seccion">
+            <h2>Presentación del proyecto</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>Nombre</h3>
+                    <p>Retiro Conecta</p>
+                </article>
+                <article class="card">
+                    <h3>Tipo de transporte</h3>
+                    <p>Trenes, micros, colectivos, combis y transporte turístico.</p>
+                </article>
+                <article class="card">
+                    <h3>Objetivo del sitio</h3>
+                    <p>Facilitar la búsqueda de recorridos, horarios, paradas y servicios accesibles.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="ubicacion" class="seccion fondo-claro">
+            <h2>Ubicación y contexto</h2>
+            <p>
+                El centro se ubica en Retiro, Ciudad Autónoma de Buenos Aires.
+                Es una zona estratégica porque conecta transporte urbano, regional,
+                nacional y turístico.
+            </p>
+            <div class="mapa">
+                Mapa de ubicación / referencia visual de Retiro
+            </div>
+        </section>
+
+        <section class="seccion">
+            <h2>Público objetivo</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>Trabajadores</h3>
+                    <p>Necesitan consultar horarios rápidamente y combinar transportes.</p>
+                </article>
+                <article class="card">
+                    <h3>Turistas</h3>
+                    <p>Requieren información clara, visual y fácil de ubicar.</p>
+                </article>
+                <article class="card">
+                    <h3>Personas mayores o con discapacidad</h3>
+                    <p>El diseño prioriza contraste, legibilidad y datos de accesibilidad.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion fondo-oscuro">
+            <h2>Identidad visual</h2>
+            <div class="grid">
+                <article class="card oscuro">
+                    <h3>Colores</h3>
+                    <p>Azul profundo, celeste, blanco y verde accesibilidad.</p>
+                </article>
+                <article class="card oscuro">
+                    <h3>Tipografía</h3>
+                    <p>Arial / sans-serif, por su lectura clara en pantallas.</p>
+                </article>
+                <article class="card oscuro">
+                    <h3>Estilo visual</h3>
+                    <p>Moderno, urbano, ordenado y orientado a la navegación rápida.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <h2>Mapa de sitio</h2>
+            <ul class="lista">
+                <li>Inicio</li>
+                <li>Servicios de transporte</li>
+                <li>Horarios</li>
+                <li>Mapa de recorridos</li>
+                <li>Accesibilidad</li>
+                <li>Contacto</li>
+            </ul>
+        </section>
+
+        <section class="seccion fondo-claro">
+            <h2>Frameworks y tecnologías</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>HTML5</h3>
+                    <p>Estructura semántica del sitio.</p>
+                </article>
+                <article class="card">
+                    <h3>CSS3</h3>
+                    <p>Diseño visual, grillas, responsive y accesibilidad.</p>
+                </article>
+                <article class="card">
+                    <h3>Bootstrap</h3>
+                    <p>Podría utilizarse para acelerar el diseño responsive.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="servicio" class="seccion">
+            <h2>Servicio individual: Tren Regional Retiro - Tigre</h2>
+            <p>
+                Servicio ferroviario regional que conecta Retiro con la zona norte del
+                Área Metropolitana de Buenos Aires.
+            </p>
+
+            <div class="grid">
+                <article class="card">
+                    <h3>Destinos principales</h3>
+                    <p>Retiro, Belgrano C, Núñez, Vicente López, Olivos, San Isidro y Tigre.</p>
+                </article>
+                <article class="card">
+                    <h3>Paradas</h3>
+                    <p>Estaciones urbanas y suburbanas con conexión a colectivos y centros comerciales.</p>
+                </article>
+                <article class="card">
+                    <h3>Accesibilidad</h3>
+                    <p>Rampas, señalización clara, contraste visual y espacios para movilidad reducida.</p>
+                </article>
+            </div>
+
+            <div class="mapa">
+                Mapa del recorrido Retiro - Tigre
+            </div>
+        </section>
+
+        <section id="horarios" class="seccion fondo-claro">
+            <h2>Horarios del servicio</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Salida</th>
+                        <th>Destino</th>
+                        <th>Frecuencia</th>
+                        <th>Accesibilidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>06:00</td>
+                        <td>Tigre</td>
+                        <td>Cada 15 minutos</td>
+                        <td>Servicio accesible</td>
+                    </tr>
+                    <tr>
+                        <td>12:00</td>
+                        <td>Tigre</td>
+                        <td>Cada 20 minutos</td>
+                        <td>Servicio accesible</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td>Tigre</td>
+                        <td>Cada 10 minutos</td>
+                        <td>Alta demanda</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
+
     <footer>
-        <p class="hola" id="hola">hola</p>
+        <p>Retiro Conecta - Centro de Transporte Inteligente</p>
     </footer>
+
 </body>
 </html>
